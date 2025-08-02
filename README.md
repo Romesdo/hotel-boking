@@ -21,25 +21,6 @@ Dự án được thiết kế để học tập và phát triển kỹ năng l�
 - **Cấu trúc thư mục:** Phân chia theo module (admin, auth, config, v.v.)
 - **Cơ sở dữ liệu:** MySQL
 
-## Cấu trúc thư mục
-- **/admin-panel:** Chứa các tệp liên quan đến bảng điều khiển quản trị.
-- **/auth:** Quản lý đăng nhập và xác thực người dùng.
-- **/config:** Tệp cấu hình ứng dụng (ví dụ: `config.php`).
-- **/css:** Tệp kiểu dáng CSS.
-- **/fonts/flaticon:** Bộ biểu tượng hoặc font tùy chỉnh.
-- **/images:** Thư mục chứa hình ảnh.
-- **/includes:** Tệp bao gồm (includes) chung (ví dụ: header, footer).
-- **/js:** Tệp JavaScript.
-- **/rooms:** Tệp liên quan đến quản lý phòng.
-- **/scss:** Tệp Sass (nếu có).
-- **/users:** Tệp quản lý thông tin người dùng.
-- **404.php:** Trang lỗi 404.
-- **about.php:** Trang giới thiệu.
-- **contact.php:** Trang liên hệ.
-- **index.php:** Trang chủ.
-- **rooms.php:** Trang quản lý phòng.
-- **services.php:** Trang dịch vụ.
-
 ## Hướng dẫn cài đặt và chạy
 1. **Clone repository:**
 - git clone https://github.com/Romesdo/hotel-booking-web-app.git
@@ -51,10 +32,10 @@ Dự án được thiết kế để học tập và phát triển kỹ năng l�
 - Tạo một cơ sở dữ liệu mới trong phpMyAdmin (ví dụ: `hotel_booking`).
 - Nhập file SQL (nếu có, ví dụ: `database.sql`) để tạo bảng và dữ liệu mẫu.
 - Chỉnh sửa file `config.php` (nếu có) với thông tin kết nối:
-- $host = 'localhost';
-- $username = 'root';
-- $password = ''; // Thay bằng mật khẩu MySQL nếu có
-- $database = 'hotel_booking';
+- `$host = 'localhost';`
+- `$username = 'root'`;
+- `$password = '';`
+- `$database = 'hotel_booking';`
 4. **Chạy ứng dụng:**
 - Mở trình duyệt và truy cập `http://localhost/hotel-booking-web-app`.
 5. **Yêu cầu hệ thống:** PHP 7.x hoặc cao hơn, máy chủ web (Apache/Nginx), MySQL 5.7 hoặc cao hơn.
